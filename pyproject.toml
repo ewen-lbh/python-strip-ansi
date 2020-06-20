@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "strip-ansi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Strip ANSI escape sequences from a string"
 authors = ["Ewen Le Bihan <ewen.lebihan7@gmail.com>"]
 readme = "README.rst"
