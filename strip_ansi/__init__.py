@@ -4,7 +4,7 @@ __version__ = '0.1.1'
 def strip_ansi(o: str) -> str:
     """
     Removes ANSI escape sequences from `o`, as defined by ECMA-048 in
-    http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdf
+    https://www.ecma-international.org/wp-content/uploads/ECMA-48_5th_edition_june_1991.pdf
     
     >>> strip_ansi("\\033[33mLorem ipsum\\033[0m")
     'Lorem ipsum'
